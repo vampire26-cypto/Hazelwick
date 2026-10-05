@@ -1,0 +1,4 @@
+Num_1 = int(input("Enter your first number: "))
+Num_2 = int(input("Enter your second number: "))
+remainder = Num_1 % Num_2
+print("The remainder is ", remainder)

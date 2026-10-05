@@ -1,0 +1,5 @@
+length = float(input("Enter your length: "))
+width = float(input("Enter your width: "))
+units = input("Enter your units: ")
+perimeter = float(2*length + 2*width)
+print("The perimeter is ",perimeter, str(units))

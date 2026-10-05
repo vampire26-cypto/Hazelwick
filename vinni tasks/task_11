@@ -1,0 +1,7 @@
+num_1 = int(input("Enter a number: "))
+num_2 = int(input("Enter another number: "))
+
+times = num_1 // num_2
+remainder = num_1 % num_2
+print("the second number goes into the first" ,times ,"times")
+print("the remainder is" ,remainder)
