@@ -1,5 +1,5 @@
-length = float(input("Enter your length: "))
-width = float(input("Enter your width: "))
+base_length = float(input("Enter your length: "))
+height = float(input("Enter your height: "))
+area = ((base_length * height) // 2)
 units = input("Enter your units: ")
-area = length * width
-print("The area is" + str(area) + " " + str(units))
+print("The area is " + str(area) + " " + str(units))
